@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.caja1:before, .caja:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.caja1 .block1 {
+	 width: 400px; 
+     height: 50px; 
+     background:  #f3ff00;
+     display: block;
+     float: left;
+     padding: 5px;
+     font-family: Arial;
+}
+
+.caja2:before, .caja:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.caja2 .block2 {
+	display: block;
+	float : left;
+	width: 400px;
+	height: 50px;
+	background: #fe0048;
+	padding: 5px;
+	font-family: Arial;
+}
+
+.caja3:before, .caja:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.caja3 .block3 {
+	display: block;
+	float : left;
+	width: 400px;
+	height: 50px;
+	background: #f3ff00;
+	padding: 5px;
+	font-family: Arial;
+}
